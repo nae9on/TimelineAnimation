@@ -6,8 +6,8 @@ from animation import Animation
 
 if __name__ == "__main__":
 
-    paths = {'Ref': './data/Reference.xls',
-             'Res': './data/Result.xls'}
+    paths = {'Ref': './data/Ref.xlsx',
+             'Res': './data/Result.xlsx'}
 
     reference = Timeline(XlsParser(paths['Ref']))
     result = Timeline(XlsParser(paths['Res']))

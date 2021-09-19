@@ -12,6 +12,6 @@ class XlsParser:
     def _parse_file(self):
         data = pd.ExcelFile(self.filename)
         sheet = data.parse(0)
-        self.time = sheet['tijdstip'].to_numpy()
+        self.time = sheet['time'].to_numpy()
         self.millisecond = sheet['msec'].to_numpy()
         self.status = sheet['status'].to_numpy()
