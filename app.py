@@ -1,7 +1,7 @@
-from xlsparser import XlsParser
-from timeline import Timeline
-from performance import Performance
-from animation import Animation
+from src.xlsparser import XlsParser
+from src.timeline import Timeline
+from src.performance import Performance
+from src.animation import Animation
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-from helper import count_consecutive
+from src.helper import count_consecutive
 
 import numpy as np
 
